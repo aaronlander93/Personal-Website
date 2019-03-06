@@ -1,0 +1,8 @@
+body {
+	background-color: #8d9fbc;
+	font-family: 'Lato', sans-serif;
+}
+
+h1 {
+	user-select: none;
+}
