@@ -1,0 +1,40 @@
+body {
+	background-color: #8d9fbc;
+	font-family: 'Lato', sans-serif;
+}
+
+h1 {
+	user-select: none;
+}
+
+.h1-centered{
+	text-align: center;
+}
+
+#game-container{
+	display: grid;
+	margin: 10vh 10vh;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 25vh 25vh 25vh;
+	text-align: center;
+}
+
+#game-container > div{
+	border: 2px solid black;
+}
+
+#game-container .top-row{
+	border-top: none;
+}
+
+#game-container .bottom-row{
+	border-bottom: none;
+}
+
+#game-container .left-column{
+	border-left: none;
+}
+
+#game-container .right-column{
+	border-right: none;
+}
